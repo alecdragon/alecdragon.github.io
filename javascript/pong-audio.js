@@ -43,11 +43,12 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("tap-resonant.mp3"); //load sound
+export var wallSound = new soundFile("clash_sfx.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("tap-percussive.mp3");
+export var paddleSound = new soundFile("clash_sfx.mp3");
 soundArray.push(paddleSound);
+paddleSound.volume = 2;
 
 export var scoreSound = new soundFile("phaserDown2.mp3");
 soundArray.push(scoreSound);
