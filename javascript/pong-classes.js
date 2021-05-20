@@ -22,7 +22,7 @@ export class Game {
     this.mute = false; //default mute state
     this.volume = 6; //default volume output 0-10
     this.computerState = 0; //default computer control amount
-    this.computerDifficulty = ["off", "easy", "medium", "hard", "impossible"]; //sets the computer difficulty names
+    this.computerDifficulty = ["off", "padawan", "jedi knight", "jedi master", "chosen one"]; //sets the computer difficulty names
     this.computerDifficultySpeed = [0, 2, 4, 8, 100]; //sets the computer difficulty speeds
   }
 }
